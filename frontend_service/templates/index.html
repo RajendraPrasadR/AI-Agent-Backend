@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent - Frontend Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .status {
+            background-color: #e8f5e8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .placeholder {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 AI Agent System</h1>
+        
+        <div class="status">
+            <h3>Service Status</h3>
+            <p><strong>Message:</strong> {{ message }}</p>
+            <p><strong>Service:</strong> {{ service }}</p>
+            <p><strong>Status:</strong> ✅ Running</p>
+        </div>
+        
+        <div class="placeholder">
+            <h3>🚧 Under Development</h3>
+            <p>This is the placeholder frontend for the AI Agent system. The full UI will include:</p>
+            <ul>
+                <li>Task selection dropdown</li>
+                <li>Task execution controls</li>
+                <li>Real-time status monitoring</li>
+                <li>Results display</li>
+                <li>Logs and error handling</li>
+            </ul>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <p><em>Frontend Service is running successfully!</em></p>
+        </div>
+    </div>
+</body>
+</html>
