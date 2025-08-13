@@ -1,5 +1,6 @@
-celery==5.5.3
-redis==6.3.0
-python-dotenv==1.1.1
+celery==5.3.4
+redis==5.0.1
+python-dotenv==1.0.0
+psutil==5.9.6
 kombu==5.5.4
 billiard==4.2.1
